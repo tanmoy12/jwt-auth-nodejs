@@ -1,0 +1,34 @@
+{
+  "name": "jwt-auth-nodejs",
+  "version": "1.0.0",
+  "description": "A sample project for jwt authentication middleware. for login, signup, reset session, logout of all sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmoy12/jwt-auth-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "authentication",
+    "logout",
+    "tokens",
+    "sessions"
+  ],
+  "author": "Tanmoy Basak Anjan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanmoy12/jwt-auth-nodejs/issues"
+  },
+  "homepage": "https://github.com/tanmoy12/jwt-auth-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "node-cron": "^2.0.3"
+  }
+}
